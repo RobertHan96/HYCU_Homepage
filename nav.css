@@ -1,10 +1,40 @@
 .nav {
     padding: 10px;
     background: #24292e;
-    position: relative;
+    display: flex;
+}
+.naveItem{ 
+    display: flex;
+    border: 1px solid wheat;
+
 }
 
 .navText {
+    display: flex;
     color: aliceblue;
     font-size: 200%;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.navText > a:link { 
+    color: aliceblue;
+    font-size: 1em;
+}
+
+.navText > a:visited { 
+    color: aliceblue;
+    font-size: 1em;
+}
+
+.navText > a:hover{ 
+    color: aliceblue;
+    font-size: 1em;
+}
+
+.navText >  a:active{
+    color: aliceblue;
+    font-size: 1em;
+}
+
