@@ -1,0 +1,10 @@
+.nav {
+    padding: 10px;
+    background: #24292e;
+    position: relative;
+}
+
+.navText {
+    color: aliceblue;
+    font-size: 200%;
+}
