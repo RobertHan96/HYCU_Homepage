@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
 .main {
     margin-bottom: 40px;
     position: relative;
@@ -24,6 +31,7 @@
 .item {
     margin-left: 3em;
     margin-bottom: 10px;
+    /* list-style: none; */
 }
 
 .logoImage {
@@ -44,6 +52,7 @@
 }
 
 table {
+    margin-left: 20px;
     border-collapse: collapse;
     border: 3px solid #168;
 }
@@ -55,11 +64,19 @@ table td {
 
 .mutlimedia {
     margin-bottom: 20px;
+    margin-left: 40px;
+    list-style: none
 }
 
-.jsExample {
+.iframe {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.listExample {
     list-style: square;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
     margin-bottom: 10px;
 }
 

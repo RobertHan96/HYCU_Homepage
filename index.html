@@ -2,51 +2,56 @@
 <title> 웹페이지 구현을 위해 필요한 기술 </title>
 
 <head>
-    <meta charset="utf-8" />
-    <link href="tabMenu.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="author" content="Yong Shin Han">
+    <meta name=“keywords” content="웹페이지 구현 기술">
+    <script src="logic.js"></script>
+    <link href="./styles/anim.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/nav.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="nav">
-        <h1 class="navText">웹페이지 구현을 위해 필요한 주요 기술들</h1>
+        <h1 class="navText">웹페이지 구현시 필요한 주요 기술</h1>
     </div>
 
     <div class="main">
-        <h3> 웹피이지 구현을 위해 필요한 기술들을 알아봅니다. </h3>
+        <h3> 웹피이지 구현을 위해 필요한 기술들을 알아봅시다. </h3>
 
         <p>
             HTML, CSS, JavaSrcpit를 통해 웹페이지를 꾸미고, 서버와 클라이언트간에 상호작용을 할 수 있습니다.
-            각 언어별 특징은 다음과 같습니다.        </p>
+        </p>
+        <p>
+            각 언어별 자세한 특징은 아래 링크를 통해 확인하세요!
+        </p>
 
-            <ul>
-                <li class="listItemTitle">HTML(Hyper Text Markup Language)</li>
-                <ul class="item">
-                    <li> web page를 만들기 위해 필요한 일종의 언어로, HTML을 통해 웹페이지의 구조를 작성함 </li>
-                </ul>
+        <table>
+            <tr>
+                <td> <a href="html_info.html"> HTML </a> </td>
+                <td> <a href="css_info.html"> CSS </a> </td>
+                <td> <a href="js_info.html"> JavaSrcpit </a> </td>
+            </tr>
+        </table>
 
-                <li class="listItemTitle"> CSS (Cascading Style Sheets)</li>
-                <ul class="item">
-                    <li> HTML 문서의 스타일을 설명하는 역할, CSS3에서는 각종 애니메이션 효과도 가능해짐 </li>
-                </ul>
-                <li class="listItemTitle">JavaSrcpit </li>
-                <ul class="item">
-                    <li> 인터프리터 방식의 웹프로그래밍 언어로, HTML문서의 동작을 제어해서 동적인 페이지를 만들어줌 </li>
-                </ul>
+        <ul>
+            <li class="listItemTitle">HTML(Hyper Text Markup Language)</li>
+            <ul class="item">
+                <li> web page를 만들기 위해 필요한 일종의 언어로, HTML을 통해 웹페이지의 구조를 작성함 </li>
             </ul>
 
-            <img class="logoImage" src="html_css_js.jpeg" alt="logo"> 
-            <p> 각 페이지에서 자세한 내용을 확인하세요!</p>
+            <li class="listItemTitle"> CSS (Cascading Style Sheets)</li>
+            <ul class="item">
+                <li> HTML 문서의 스타일을 설명하는 역할, CSS3에서는 각종 애니메이션 효과도 가능해짐 </li>
+            </ul>
+            <li class="listItemTitle">JavaSrcpit </li>
+            <ul class="item">
+                <li> 인터프리터 방식의 웹프로그래밍 언어로, HTML문서의 동작을 제어해서 동적인 페이지를 만들어줌 </li>
+            </ul>
+        </ul>
 
-            <table>
-                <tr> 
-                    <td> <a href="html_info.html"> HTML </a> </td>
-                    <td>  <a href="css_info.html"> CSS </a> </td>
-                    <td> <a href="js_info.html"> JavaSrcpit </a> </td>
-                </tr>
-            </table>
+        <img class="logoImage" src="./media/html_css_js.jpeg" alt="logo">
+
     </div>
 
 

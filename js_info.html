@@ -1,13 +1,14 @@
 <html>
-<title> 웹페이지 구현을 위해 필요한 기술 </title>
+<title> JavaSrcpit</title>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="author" content="Yong Shin Han">
+    <meta name=“keywords” content=“JavaSrcpit”>
     <script src="logic.js"></script>
-    <link href="tabMenu.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-
+    <link href="./styles/anim.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/nav.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,13 +29,13 @@
         <ul style="list-style: disc; margin-left: 30px;">
             <li> 프로그래밍 언어로서 값을 변수로 저장할 수 있음 </li>
             <li> 화면내 값에 동적 변화를 줄 수 있음</li>
-            <li class="jsExample">예시1 - 버튼 클릭시 하단에 현재 시간 출력
+            <li class="listExample">예시1 - 버튼 클릭시 하단에 현재 시간 출력
                 <p id="nowTime"> </p>
                 <button onclick="printDate()"> 날짜/시간 표시 </button>
 
             </li>
 
-            <li class="jsExample">사용자로부터 정보를 입력받을 수 있음 - 버튼 터치시 개인정보 입력창 팝업
+            <li class="listExample"> 예시2 - 사용자 정보를 입력받아 알림창 내용으로 출력
                 <p id="user"></p>
                 <button onclick="getUserInfo()"> 신상 정보 입력 </button>
 
