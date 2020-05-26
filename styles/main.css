@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -14,7 +14,6 @@
     padding: 20px;
     background: #fafbfc;
     border: 1px gray solid;
-
 }
 
 .main>h3 {
@@ -31,18 +30,19 @@
 .item {
     margin-left: 3em;
     margin-bottom: 10px;
-    /* list-style: none; */
 }
 
 .logoImage {
-    margin-left: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px lightgrey solid;
-    width: 25em;
+    width: 40%;
     height: 18em;
 }
 
+/* 
 .imgContainer {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -50,7 +50,7 @@
     height: 100px;
     border: 1px black solid;
 }
-
+ */
 table {
     margin-left: 20px;
     border-collapse: collapse;
@@ -65,7 +65,7 @@ table td {
 .mutlimedia {
     margin-bottom: 20px;
     margin-left: 40px;
-    list-style: none
+    list-style: none;
 }
 
 .iframe {
