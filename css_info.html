@@ -6,6 +6,7 @@
     <link href="tabMenu.css" rel="stylesheet">
     <link href="nav.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    <link href="anim.css" rel="stylesheet">
 
 </head>
 
@@ -15,7 +16,7 @@
             <h1 class="navText">CSS</h1>
         </div>
         <div class="navItem">
-            <h1 class="navText"> 
+            <h1 class="navText">
                 <a class="goMain" href="index.html"> HOME </a>
             </h1>
         </div>
@@ -24,21 +25,30 @@
 
     <div class="main">
         <h3> CSS의 역사 </h3>
-            <ul style="list-style: disc; margin-left: 30px;">
-                <li >1994년 - HTML문서의 스타일을 꾸미기 위해 처음 제안 됨</li>
-                <li > 2011년 - CSS3의 표준안으로 CSS2.1이 W3C에의해 제안됨</li>
-                <li >CSS3에 이르러 다양한 애니메이션 기능이 추가됨</li>
-            </ul>
+        <ul style="list-style: disc; margin-left: 30px;">
+            <li>1994년 - HTML문서의 스타일을 꾸미기 위해 처음 제안 됨</li>
+            <li> 2011년 - CSS3의 표준안으로 CSS2.1이 W3C에의해 제안됨</li>
+            <li>CSS3에 이르러 다양한 애니메이션 기능이 추가됨</li>
+        </ul>
 
         <h3> CSS3의 주요 기능 </h3>
 
         <ul>
             <li class="listItemTitle">다양한 애니메이션</li>
             <ul class="item">
-                <li> 객체의 이동 애니메이션 효과 </li>
-            </ul>
-            <ul class="item">
-                <li> 객체의 밝기 변환 효과 </li>
+                <li> CSS3에서는 JS없이도 객체를 움직이는 애니메이션 효과 적용 가능</li>
+                <li class="hoverAnimContainer">
+                    마우스 오버시 도형이 이동하는 애니메이션
+                    <div class="box"></div>
+
+                </li>
+
+                <li class="MoveanimContainer">
+                    상하좌우로 계속해서 도형이 움직이는 애니메이션
+                    <div class="move"></div>
+
+                </li>
+
             </ul>
         </ul>
     </div>
